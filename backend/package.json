@@ -1,0 +1,20 @@
+{
+  "name": "keeper",
+  "version": "1.0.0",
+  "description": "A Web App where you can store importants notes",
+  "main": "notes.js",
+  "scripts": {
+    "start": "nodemon notes.js"
+  },
+  "author": "Ishwar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2"
+  }
+}
